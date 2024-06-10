@@ -19,7 +19,6 @@
 
                     <div class="pt-5">
                         <h4 class="fw-bolder">Follow Us</h4>
-
                         <div class="row py-3 social-media">
                             <div class=" col-2 col-lg-1  mx-1 text-center social-icons">
                                 <Icon name="uil:facebook" color="black" size='24px' />
