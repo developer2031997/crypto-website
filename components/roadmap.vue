@@ -189,6 +189,7 @@
 .roadmap-card-main:hover {
     border: 2px solid #74E4AC;
     background-color: #00000040;
+    color: #fff;
 }
 
 .roadmap__thumb {
