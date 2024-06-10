@@ -10,14 +10,17 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
         <ul class="navbar-nav mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="#banner">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">About Us</a>
+            <a class="nav-link active" aria-current="page" href="#about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#service">Services</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Services
+              Dropdown
             </a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="#">Action</a></li>
@@ -40,15 +43,27 @@
     <slot />
   </div>
 
-  <div style="background-color: #F1F5F9;">
+  <div style="background-color: #F2F5FA; box-shadow: 0 0 10px #000;">
     <div class="container">
-    <footer class="row pt-5 pb-2 justify-content-between" >
-      <div class="col-4 mb-3">
+    <footer class="row pt-5 pb-2 justify-content-between text-center" >
+      <div class="col-lg-4 col-12 mb-3">
         <h1>Crypto Website</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, inventore.</p>
       </div>
-      <div class="col-2 mb-3">
-        <h5>Section</h5>
+      <div class="col-lg-2 col-12 mb-3">
+        <h5>Quick Links</h5>  <hr>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About Us</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Services</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Offers</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Roadmap</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQ's</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-2 col-12 mb-3">
+        <h5>Section</h5>  <hr>
         <ul class="nav flex-column">
           <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
           <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
@@ -58,19 +73,8 @@
         </ul>
       </div>
 
-      <div class="col-2 mb-3">
-        <h5>Section</h5>
-        <ul class="nav flex-column">
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-        </ul>
-      </div>
-
-      <div class="col-2 mb-3">
-        <h5>Section</h5>
+      <div class="col-lg-2 col-12 mb-3">
+        <h5>Section</h5>  <hr>
         <ul class="nav flex-column">
           <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
           <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
@@ -80,8 +84,8 @@
         </ul>
       </div>
       <div class="d-flex flex-column flex-sm-row justify-content-between py-3 border-top">
-        <p>© 2024 Company, Inc. All rights reserved.</p>
-        <div class="d-flex">
+        <p>© {{ new Date().getFullYear() }} Company, Inc. All rights reserved.</p>
+        <div class="d-flex text-center justify-content-center">
           <div class=" mx-1 text-center social-icons">
             <Icon name="uil:facebook" color="black" size='24px' />
           </div>
@@ -99,6 +103,9 @@
           </div>
         </div>
       </div>
+      <button @click="scrollToTop" v-if="showButton" id="myBtn" title="Go to top">
+        <Icon name="uil:arrow-up" color="white" size='40px' />
+      </button>
     </footer>
     </div>
   </div>
@@ -107,6 +114,7 @@
 
 <script setup>
 const isSticky = ref(false);
+const showButton = ref(false);
 
 const handleScroll = () => {
   if (window.pageYOffset > 200) {
@@ -116,17 +124,38 @@ const handleScroll = () => {
   }
 };
 
+// When the user scrolls down 20px from the top of the document, show the button
+const scrollFunction = () => {
+      if (window.pageYOffset > 20) {
+        showButton.value = true;
+      } else {
+        showButton.value = false;
+      }
+    };
 
+    const scrollToTop = () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    };
+
+    
 onMounted(() => {
   window.addEventListener('scroll', handleScroll);
+  window.addEventListener('scroll', scrollFunction);
 });
 
 onUnmounted(() => {
   window.removeEventListener('scroll', handleScroll);
+  window.removeEventListener('scroll', scrollFunction);
 });
 </script>
 
 <style scoped>
+.navbar{
+  z-index: 100;
+}
 a,
 NuxtLink {
   text-decoration: none;
@@ -182,5 +211,30 @@ p {
 }
 body{
   overflow: hidden!important;
+}
+
+#myBtn {
+  /* display: none; */
+  position: fixed;
+    bottom: 20px;
+    right: 12px;
+    z-index: 99;
+    width: 4%;
+    height: 9%;
+    /* font-size: -18px; */
+    border: none;
+    outline: none;
+    background-color: #1BCE57;
+    color: white;
+    cursor: pointer;
+    padding: 0px;
+    border-radius: 25px;
+}
+
+#myBtn:hover {
+  background-color: #0D6EFD;
+}
+.nav-link:hover{
+  color : #1CD059!important;
 }
 </style>

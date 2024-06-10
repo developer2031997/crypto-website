@@ -10,104 +10,18 @@
                 <hr />
             </div>
             <div class="col-lg-6 py-4 pt-5">
-                <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div v-for="faq in faqs" :key="faq.question" class="accordion accordion-flush" id="accordionFlushExample">
                     <div class="accordion-item">
                         <h2 class="accordion-header">
                             <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#flush-collapseOne" aria-expanded="false"
-                                aria-controls="flush-collapseOne">
-                                Accordion Item #1
+                                :data-bs-target="'#flush-collapse' +faq.id" aria-expanded="false"
+                                :aria-controls="'flush-collapse' +faq.id">
+                                {{ faq.question }}
                             </button>
                         </h2>
-                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                        <div :id="'flush-collapse' +faq.id" class="accordion-collapse collapse"
                             data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">Placeholder content for this accordion, which is intended to
-                                demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion
-                                body.</div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#flush-collapseTwo" aria-expanded="false"
-                                aria-controls="flush-collapseTwo">
-                                Accordion Item #2
-                            </button>
-                        </h2>
-                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
-                            data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">Placeholder content for this accordion, which is intended to
-                                demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion
-                                body. Let's imagine this being filled with some actual content.</div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#flush-collapseThree" aria-expanded="false"
-                                aria-controls="flush-collapseThree">
-                                Accordion Item #3
-                            </button>
-                        </h2>
-                        <div id="flush-collapseThree" class="accordion-collapse collapse"
-                            data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">Placeholder content for this accordion, which is intended to
-                                demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion
-                                body. Nothing more exciting happening here in terms of content, but just filling up the
-                                space to make it look, at least at first glance, a bit more representative of how this
-                                would look in a real-world application.</div>
-                        </div>
-                    </div>
-                  
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#flush-collapseFour" aria-expanded="false"
-                                aria-controls="flush-collapseFour">
-                                Accordion Item #4
-                            </button>
-                        </h2>
-                        <div id="flush-collapseFour" class="accordion-collapse collapse"
-                            data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">Placeholder content for this accordion, which is intended to
-                                demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion
-                                body. Nothing more exciting happening here in terms of content, but just filling up the
-                                space to make it look, at least at first glance, a bit more representative of how this
-                                would look in a real-world application.</div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#flush-collapseFive" aria-expanded="false"
-                                aria-controls="flush-collapseFive">
-                                Accordion Item #5
-                            </button>
-                        </h2>
-                        <div id="flush-collapseFive" class="accordion-collapse collapse"
-                            data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">Placeholder content for this accordion, which is intended to
-                                demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion
-                                body. Nothing more exciting happening here in terms of content, but just filling up the
-                                space to make it look, at least at first glance, a bit more representative of how this
-                                would look in a real-world application.</div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#flush-collapseSix" aria-expanded="false"
-                                aria-controls="flush-collapseSix">
-                                Accordion Item #6
-                            </button>
-                        </h2>
-                        <div id="flush-collapseSix" class="accordion-collapse collapse"
-                            data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">Placeholder content for this accordion, which is intended to
-                                demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion
-                                body. Nothing more exciting happening here in terms of content, but just filling up the
-                                space to make it look, at least at first glance, a bit more representative of how this
-                                would look in a real-world application.</div>
+                            <div class="accordion-body">{{ faq.answer }}</div>
                         </div>
                     </div>
                 </div>
@@ -120,6 +34,38 @@
 </template>
 
 <script setup>
+const faqs = ref([  
+    {
+        id:"One",
+        question: "What is Medical Crypto and how does it work?",
+        answer: "Medical crypto involves using blockchain technology to secure, manage, and streamline healthcare data and processes. It ensures data integrity, privacy, and transparency, making healthcare systems more efficient and trustworthy."
+    },
+    {
+        id:"Two",
+        question: "How does blockchain technology enhance data security in healthcare?",
+        answer: "Blockchain encrypts health data and stores it in a decentralized ledger, making it tamper-proof and accessible only to authorized users. This prevents unauthorized access and data breaches."
+    },
+    {
+        id:"Three",
+        question: "What are the benefits of using blockchain for pharmaceutical traceability?",
+        answer: "Blockchain ensures that every step of the pharmaceutical supply chain is recorded and verifiable. This combats counterfeit drugs, ensures authenticity, and enhances patient safety by tracking medications from production to delivery."
+    },
+    {
+        id:"Four",
+        question: "How can blockchain improve clinical trials?",
+        answer: "Blockchain maintains an immutable record of all clinical trial data, ensuring transparency and integrity. This prevents data manipulation and enhances trust in the results, making clinical trials more reliable."
+    },
+    {
+        id:"Five",
+        question: "What are smart contracts and how are they used in healthcare?",
+        answer: "Smart contracts are self-executing contracts with the terms directly written into code. In healthcare, they can automate processes such as insurance claims, consent management, and payment settlements, reducing administrative overhead and increasing efficiency."
+    },
+    {
+        id:"Six",
+        question: "Is your platform compliant with healthcare regulations like HIPAA and GDPR?",
+        answer: "Yes, our platform is designed to comply with major healthcare regulations such as HIPAA and GDPR. We prioritize data security and privacy, ensuring that our solutions meet all legal standards for protecting patient information."
+    }
+]);
 
 </script>
 

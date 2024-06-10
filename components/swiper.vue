@@ -8,40 +8,40 @@
                     disableOnInteraction: false,
                 }" class="mySwiper">
                     <swiper-slide class="pt-4">
-                        <NuxtImg src="/images/partner.png" class="img-fluid w-75 partner" alt="Nuxt Icon" />
+                        <NuxtImg  loading="lazy" src="/images/partner.png" class="img-fluid slider-img w-75  partner" alt="Nuxt Icon" />
                     </swiper-slide>
                     <swiper-slide class="pt-4">
-                        <NuxtImg src="/images/partner1.png" class="img-fluid w-75 partner" alt="Nuxt Icon" />
+                        <NuxtImg  loading="lazy" src="/images/partner1.png" class="img-fluid slider-img w-75  partner" alt="Nuxt Icon" />
                     </swiper-slide>
                     <swiper-slide class="pt-4">
-                        <NuxtImg src="/images/partner2.png" class="img-fluid w-75 partner" alt="Nuxt Icon" />
+                        <NuxtImg  loading="lazy" src="/images/partner2.png" class="img-fluid slider-img w-75  partner" alt="Nuxt Icon" />
                     </swiper-slide>
                     <swiper-slide class="pt-4">
-                        <NuxtImg src="/images/partner3.png" class="img-fluid pt-2 w-75 partner" alt="Nuxt Icon" />
+                        <NuxtImg  loading="lazy" src="/images/partner3.png" class="img-fluid slider-img w-75 pt-2  partner" alt="Nuxt Icon" />
                     </swiper-slide>
                     <swiper-slide class="pt-4">
-                        <NuxtImg src="/images/partner4.png" class="img-fluid w-75 partner" alt="Nuxt Icon" />
+                        <NuxtImg  loading="lazy" src="/images/partner4.png" class="img-fluid slider-img w-75  partner" alt="Nuxt Icon" />
                     </swiper-slide>
                     <swiper-slide class="pt-4">
-                        <NuxtImg src="/images/partner5.png" class="img-fluid w-75 partner" alt="Nuxt Icon" />
+                        <NuxtImg  loading="lazy" src="/images/partner5.png" class="img-fluid slider-img w-75  partner" alt="Nuxt Icon" />
                     </swiper-slide>
                     <swiper-slide class="pt-4">
-                        <NuxtImg src="/images/partner.png" class="img-fluid w-75 partner" alt="Nuxt Icon" />
+                        <NuxtImg  loading="lazy" src="/images/partner.png" class="img-fluid slider-img w-75  partner" alt="Nuxt Icon" />
                     </swiper-slide>
                     <swiper-slide class="pt-4">
-                        <NuxtImg src="/images/partner1.png" class="img-fluid w-75 partner" alt="Nuxt Icon" />
+                        <NuxtImg  loading="lazy" src="/images/partner1.png" class="img-fluid slider-img w-75  partner" alt="Nuxt Icon" />
                     </swiper-slide>
                     <swiper-slide class="pt-4">
-                        <NuxtImg src="/images/partner2.png" class="img-fluid w-75 partner" alt="Nuxt Icon" />
+                        <NuxtImg  loading="lazy" src="/images/partner2.png" class="img-fluid slider-img w-75  partner" alt="Nuxt Icon" />
                     </swiper-slide>
                     <swiper-slide class="pt-4">
-                        <NuxtImg src="/images/partner3.png" class="img-fluid pt-2 w-75 partner" alt="Nuxt Icon" />
+                        <NuxtImg  loading="lazy" src="/images/partner3.png" class="img-fluid slider-img w-75 pt-2  partner" alt="Nuxt Icon" />
                     </swiper-slide> 
                     <swiper-slide class="pt-4">
-                        <NuxtImg src="/images/partner4.png" class="img-fluid w-75 partner" alt="Nuxt Icon" />
+                        <NuxtImg  loading="lazy" src="/images/partner4.png" class="img-fluid slider-img w-75  partner" alt="Nuxt Icon" />
                     </swiper-slide>
                      <swiper-slide class="pt-4">
-                        <NuxtImg src="/images/partner5.png" class="img-fluid w-75 partner" alt="Nuxt Icon" />
+                        <NuxtImg  loading="lazy" src="/images/partner5.png" class="img-fluid slider-img w-75  partner" alt="Nuxt Icon" />
                     </swiper-slide>
                 </swiper>
             </div>
@@ -88,14 +88,28 @@ const modules = [Autoplay];
     position: absolute;
 }
 .partner::after {
-    content: "";
+content: "";
   left: 0;
-  top: -17px;
-  height: 130px; /* Adjust the height as needed */
+  top: -24px;
+  height: 140px; /* Adjust the height as needed */
   width: 100%; /* Adjust the width to cover the parent element's width with some extra for the rotation */
   background: #edf2f8;
   z-index: -2;
   position: absolute;
-  overflow: hidden;
+  /* overflow: hidden; */
+}
+
+@media screen and (max-width: 480px) {
+    .partner::after {
+        height: 90px!important;
+        top: -19px;
+    } 
+    .partner::before{
+    top: -6px;
+    height: 130%;
+    }
+    .slider-img {
+        width: 100%!important;
+    }
 }
 </style>

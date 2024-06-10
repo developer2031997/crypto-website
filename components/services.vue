@@ -1,8 +1,8 @@
 <template>
-    <div class="bg-white container">
-        <div class="row">
+    <div class="bg-white container" id="service">
+        <div class="row justify-content-center py-5">
             <div class="col-lg-12">
-                <div class="text-center pt-5">
+                <div class="text-center">
                     <h1 class="fw-bold"><span class="text-primary">Services</span> We Offer</h1>
                     <h5 class="text-secondary py-3">We offer the best services around - from installations to repairs,
                         maintenance, and more</h5>
@@ -16,8 +16,8 @@
                                 <NuxtImg :src="service.img" class="img-fluid" alt="Nuxt Icon" />
                             </div>
                         </div>
-                        <h4 class="py-3 fw-bold">{{ service.title }}</h4>
-                        <p>{{ service.text }}</p>
+                        <h4 class="p-3 fw-bold">{{ service.title }}</h4>
+                        <p class="px-3">{{ service.text }}</p>
                     </div>
                 </div>
             </div>
@@ -29,31 +29,36 @@
 const services = ref([
     {
         img: "/images/service1.png",
-        title: "Strategy Consulting",
-        text: "A social assistant that's flexible can accommodate your schedule and needs, making life easier."
+        title: "Secure Data Management",
+        text: "Our blockchain technology ensures your medical records are securely stored and accessible only to authorized personnel, providing peace of mind and convenience."
     },
     {
         img: "/images/service2.png",
-        title: "Financial Advisory",
-        text: "Modules transform smart trading by automating processes and improving decision-making."
-    }, {
+        title: "Pharmaceutical Traceability",
+        text: "Track the journey of pharmaceuticals from manufacturer to patient, combating counterfeit drugs and ensuring you receive genuine medications."
+    }, 
+    {
         img: "/images/service3.png",
-        title: "Management",
-        text: "There, it's me, your friendly neighborhood reporter's news analyst processes and improving"
-    }, {
+        title: "Clinical Trial Management",
+        text: "Our platform enhances the reliability and transparency of clinical trials, ensuring all data is securely recorded and immutable, fostering trust in research."
+    }, 
+    {
         img: "/images/service4.png",
         title: "Supply Optimization",
-        text: "Hey, have you checked out that new cryptocurrency platform? It's pretty cool and easy  to use!"
-    }, {
+        text: "Optimize your medical supply chain with our blockchain solutions, ensuring efficient, transparent, and reliable management from production to delivery."
+    }, 
+    {
         img: "/images/service5.png",
-        title: "HR consulting",
-        text: "Hey guys, just a quick update on exchange orders. There have been some changes currency!"
-    }, {
+        title: "Smart Contract Development",
+        text: "We develop smart contracts tailored to healthcare needs, automating processes like insurance claims, consent management, and payment settlements."
+    }, 
+    {
         img: "/images/service6.png",
-        title: "Marketing consulting",
-        text: "Hey! Just wanted to let you know that the price notification module processes is now live"
+        title: "Telemedicine Solutions",
+        text: "Integrate blockchain into your telemedicine services to ensure secure, private, and reliable virtual consultations and data exchange."
     }
 ])
+
 </script>
 
 <style scoped>

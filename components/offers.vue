@@ -14,32 +14,28 @@
                 
             </div>
        
-            <div class="row justify-content-between">
+            <div class="row justify-content-sm-center justify-content-between ">
                 <div class="col-lg-5">
                     <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist"
                         aria-orientation="vertical">
                         <button class="nav-link btn-bg my-2  active" id="v-pills-home-tab" data-bs-toggle="pill"
                             data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
-                            aria-selected="true">Lending Money For Investment
-                            Of Your New Projects</button>
+                            aria-selected="true">Enhanced Data Security</button>
                         <button class="nav-link btn-bg my-2 " id="v-pills-profile-tab" data-bs-toggle="pill"
                             data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile"
-                            aria-selected="false">Lending Money For
-                            Investment Of Your New Projects</button>
+                            aria-selected="false">Improved Patient Privacy</button>
                         <button class="nav-link btn-bg my-2 " id="v-pills-messages-tab" data-bs-toggle="pill"
                             data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages"
-                            aria-selected="false">Lending Money
-                            For Investment Of Your New Projects</button>
+                            aria-selected="false">Transparent and Efficient Processes</button>
                         <button class="nav-link btn-bg my-2 " id="v-pills-settings-tab" data-bs-toggle="pill"
                             data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings"
-                            aria-selected="false">Lending Money
-                            For Investment Of Your New Projects</button>
+                            aria-selected="false">Pharmaceutical Traceability</button>
                     </div>
                 </div>
-                <div class="col-lg-1 ">
+                <div class="col-lg-1 d-none d-sm-block">
                     <div class="offers-border"></div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 my-3 text-center">
                     <div class="tab-content" id="v-pills-tabContent">
                         <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
                             aria-labelledby="v-pills-home-tab" tabindex="0">
@@ -62,7 +58,7 @@
                             <NuxtImg src="/images/features02.png" class="about-img img-fluid w-75" alt="Nuxt Icon" />
 
                         </div>
-                    </div>
+                    </div> 
                 </div>
             </div>
         </div>

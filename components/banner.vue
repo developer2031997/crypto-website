@@ -1,5 +1,5 @@
 <template>
-    <div class="bannner-bg">
+    <div class="bannner-bg" id="banner">
         <div class="container">
             <div class="row justify-content-between pt-5">
                 <div class="col-lg-6 ">
@@ -7,12 +7,10 @@
                         <NuxtImg src="/images/banner-coin.png" class="img-fluid w-25 banner-coin" alt="Nuxt Icon" />
                     </div>
                     <div class="">
-                        <h1 class="banner-heading">Invest Your Money With Higher Return</h1>
+                        <h1 class="banner-heading">Transforming Healthcare with Blockchain Technology</h1>
                     </div>
                     <div class="py-3">
-                        <p>Anyone can invest money to different currency to increase their earnings by the help of
-                            Bitrader
-                            through online.</p>
+                        <p>Secure, transparent, and efficient solutions for the future of healthcare. Join us in revolutionizing the medical industry.</p>
                     </div>
                     <div class="">
                         <a class="btn banner-btn-1 text-white fw-bold" href="">Learn More</a>
@@ -22,20 +20,20 @@
                     <div class="pt-5">
                         <h4 class="fw-bolder">Follow Us</h4>
 
-                        <div class="row py-3">
-                            <div class="col-lg-1 mx-1 text-center social-icons">
+                        <div class="row py-3 social-media">
+                            <div class=" col-2 col-lg-1  mx-1 text-center social-icons">
                                 <Icon name="uil:facebook" color="black" size='24px' />
                             </div>
-                            <div class="col-lg-1 mx-1 text-center social-icons">
+                            <div class=" col-2 col-lg-1  mx-1 text-center social-icons">
                                 <Icon name="uil:linkedin" color="black" size='24px' />
                             </div>
-                            <div class="col-lg-1 mx-1 text-center social-icons">
+                            <div class=" col-2 col-lg-1  mx-1 text-center social-icons">
                                 <Icon name="uil:instagram" color="black" size='24px' />
                             </div>
-                            <div class="col-lg-1 mx-1 text-center social-icons">
+                            <div class=" col-2 col-lg-1  mx-1 text-center social-icons">
                                 <Icon name="uil:youtube" color="black" size='24px' />
                             </div>
-                            <div class="col-lg-1 mx-1 text-center social-icons">
+                            <div class=" col-2 col-lg-1  mx-1 text-center social-icons">
                                 <Icon name="uil:twitter" color="black" size='24px' />
                             </div>
                         </div>
@@ -57,7 +55,7 @@
 
 <style scoped>
 .banner-heading {
-    font-size: 57px;
+    font-size: 42px;
 }
 
 .banner-btn-1 {
@@ -144,5 +142,11 @@
         -webkit-transform: translateX(-100px);
         transform: translateX(-100px);
     }
+}
+@media screen and (max-width:480px) {
+    .social-media{
+        justify-content: space-around;
+    }
+    
 }
 </style>
