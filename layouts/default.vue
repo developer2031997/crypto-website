@@ -239,7 +239,10 @@ body{
   color : #1CD059!important;
 }
 @media screen and (max-width : 480px) {
-
+.navbar-collapse{
+  background-color: #F4F7FB;
+  padding: 0px 10px;
+}
   #myBtn{
     bottom: 9px;
     height: 7%;
