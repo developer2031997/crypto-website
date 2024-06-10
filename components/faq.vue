@@ -9,7 +9,7 @@
                 </div>
                 <hr />
             </div>
-            <div class="col-lg-6 py-4 pt-5">
+            <div class="col-lg-6 py-4 pt-5 accordion-parent">
                 <div v-for="faq in faqs" :key="faq.question" class="accordion accordion-flush" id="accordionFlushExample">
                     <div class="accordion-item">
                         <h2 class="accordion-header">
@@ -26,7 +26,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 py-4 text-center">
+            <div class="col-lg-6 py-4 text-center faq-img">
                 <NuxtImg src="/images/faq.png" class="about-img img-fluid w-75" alt="Nuxt Icon" />
             </div>
         </div>
@@ -66,17 +66,24 @@ const faqs = ref([
         answer: "Yes, our platform is designed to comply with major healthcare regulations such as HIPAA and GDPR. We prioritize data security and privacy, ensuring that our solutions meet all legal standards for protecting patient information."
     }
 ]);
-
 </script>
 
 <style scoped>
-
-
 .accordion-button:not(.collapsed) {
     background-color: #72E4AB;
     /* color:white; */
 }
 .accordion-body {
     background: #46cc872e;
+}
+
+@media screen and (max-width : 480px) {
+    .accordion-parent{
+        order: 2;
+    }
+    .faq-img{
+        order: 1;
+    }
+    
 }
 </style>
