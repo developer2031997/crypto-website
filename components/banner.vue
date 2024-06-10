@@ -147,6 +147,17 @@
     .social-media{
         justify-content: space-around;
     }
+    @keyframes slide-left {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    100% {
+        -webkit-transform: translateX(-100px);
+        transform: translateX(-70px);
+    }
+}
     
 }
 </style>
