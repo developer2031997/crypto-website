@@ -242,7 +242,7 @@ body{
   #myBtn{
     bottom: 9px;
     height: 7%;
-    right: 14px;
+    right: 27px;
     width: 13%;;
 }
   
