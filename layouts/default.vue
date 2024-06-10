@@ -211,6 +211,7 @@ p {
 }
 body{
   overflow: hidden!important;
+  scroll-behavior: smooth;
 }
 
 #myBtn {
