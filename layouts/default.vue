@@ -237,4 +237,14 @@ body{
 .nav-link:hover{
   color : #1CD059!important;
 }
+@media screen and (max-width : 480px) {
+
+  #myBtn{
+    bottom: 9px;
+    height: 7%;
+    right: 14px;
+    width: 13%;;
+}
+  
+}
 </style>
