@@ -81,7 +81,7 @@
 }
 .btn-bg {
     border: 1px solid #fff;
-    width: 408px;
+    width: 380px;
     padding: 20px 0px;
     border-radius: 12px;
 }
