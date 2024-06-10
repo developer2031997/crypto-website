@@ -242,6 +242,7 @@ body{
 .navbar-collapse{
   background-color: #F4F7FB;
   padding: 0px 10px;
+  border-radius: 10px;
 }
   #myBtn{
     bottom: 9px;
