@@ -1,5 +1,5 @@
 <template>
-    <div class="container py-5">
+    <div class="container py-5" id="faq">
         <div class="row">
             <div class="col-lg-12">
                 <div class="text-center ">
@@ -32,7 +32,7 @@
         </div>
     </div>
 </template>
-
+    
 <script setup>
 const faqs = ref([  
     {

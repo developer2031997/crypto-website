@@ -1,5 +1,5 @@
 <template>
-    <div style="background: linear-gradient(152deg, #edf2f838 0%, #edf2f8 100%);">
+    <div style="background: linear-gradient(152deg, #edf2f838 0%, #edf2f8 100%);" id="roadmap">
         <div class="container">
             <div class="row py-4">
                 <div class="col-lg-12">
