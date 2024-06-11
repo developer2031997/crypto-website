@@ -16,7 +16,9 @@
                     <div class="">
                         <a class="btn banner-btn-1 text-white fw-bold" href="#about">Learn More</a>
                         <a class="btn banner-btn-2 btn-outline-primary fw-bold mx-3" data-bs-toggle="modal"
-                            data-bs-target="#staticBackdrop">Watch Video</a>
+                            data-bs-target="#staticBackdrop">
+                           <span> <Icon class="arrow" name="uil:arrow-right" color="blue" size='30px' /></span>
+                            Watch Video</a>
 
                         <!-- Modal -->
                         <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
@@ -112,7 +114,9 @@
     padding: 2px;
     border-radius: 50px
 }
-
+.banner-btn-2:hover .arrow{
+    color:white!important;
+}
 .social-icons:hover {
     background-color: #6CE0A6;
 }
