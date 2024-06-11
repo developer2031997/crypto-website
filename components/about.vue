@@ -30,7 +30,7 @@
                         <a class="btn banner-btn-1 text-white fw-bold" href="">Explore More</a>
                     </div>
                 </div>
-                <div class="col-lg-12 py-3"></div>
+                <!-- <div class="col-lg-12 py-3"></div> -->
             </div>
         </div>
     </div>

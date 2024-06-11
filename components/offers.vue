@@ -3,7 +3,7 @@
         <div class="container py-5">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="text-center ">
+                    <div class="text-center">
                         <h1 class="fw-bold"><span class="text-primary">Benefits</span> We Offer</h1>
                         <h5 class="text-secondary py-3">Unlock the full potential of our product with our amazing
                             features
@@ -14,7 +14,7 @@
                 
             </div>
        
-            <div class="row justify-content-sm-center justify-content-between ">
+            <div class="row justify-content-sm-center justify-content-between">
                 <div class="col-lg-5 col-md-5">
                     <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist"
                         aria-orientation="vertical">
@@ -56,7 +56,6 @@
                         <div  class="tab-pane fade" id="v-pills-settings" role="tabpanel"
                             aria-labelledby="v-pills-settings-tab" tabindex="0">
                             <NuxtImg src="/images/features02.png" class="about-img img-fluid w-75" alt="Nuxt Icon" draggable="false" />
-
                         </div>
                     </div> 
                 </div>
