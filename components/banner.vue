@@ -4,7 +4,7 @@
             <div class="row justify-content-between pt-5">
                 <div class="col-lg-6 ">
                     <div class="">
-                        <NuxtImg src="/images/banner-coin.png" class="img-fluid w-25 banner-coin" alt="Nuxt Icon" />
+                        <NuxtImg src="/images/banner-coin.png" class="img-fluid w-25 banner-coin" alt="Nuxt Icon"  draggable="false" />
                     </div>
                     <div class="">
                         <h1 class="banner-heading">Transforming Healthcare with Blockchain Technology</h1>
@@ -64,7 +64,7 @@
                 </div>
                 <div class="col-lg-6 py-5">
                     <div class="banner-img">
-                        <NuxtImg src="/images/banner-img.png" class="banner-img-img img-fluid w-100" alt="Nuxt Icon" />
+                        <NuxtImg src="/images/banner-img.png" class="banner-img-img img-fluid w-100" alt="Nuxt Icon" draggable="false"/>
                     </div>
                 </div>
             </div>

@@ -17,7 +17,7 @@
                 </div>
                 <div class="col-lg-6 d-none d-lg-block">
                     <div class="d-flex justify-content-center align-item-center">
-                        <NuxtImg src="/images/shape01.png" class="img-fluid banner-coin" style="margin-top: 30px; width: 45%;" alt="Nuxt Icon" />
+                        <NuxtImg src="/images/shape01.png" class="img-fluid banner-coin" style="margin-top: 30px; width: 45%;" alt="Nuxt Icon" draggable="false" />
                     </div>
                 </div>
                 <div class="col-lg-6  py-3 roadmap-card-container">
@@ -49,12 +49,12 @@
                 </div>
                 <div class="col-lg-6 d-none d-lg-block">
                     <div class="d-flex justify-content-center align-item-center">
-                        <NuxtImg src="/images/shape01.png" class="img-fluid banner-coin" style="margin-top: 30px; width: 45%;" alt="Nuxt Icon" />
+                        <NuxtImg src="/images/shape01.png" class="img-fluid banner-coin" style="margin-top: 30px; width: 45%;" alt="Nuxt Icon" draggable="false" />
                     </div>
                 </div>
                 <div class="col-lg-6 d-none d-lg-block">
                     <div class="d-flex justify-content-center align-item-center">
-                        <NuxtImg src="/images/shape01.png" class="img-fluid banner-coin" style="margin-top: 30px; width: 45%;" alt="Nuxt Icon" />
+                        <NuxtImg src="/images/shape01.png" class="img-fluid banner-coin" style="margin-top: 30px; width: 45%;" alt="Nuxt Icon" draggable="false" />
                     </div>
                 </div>
                 <div class="col-lg-6  py-3 roadmap-card-container">
@@ -86,12 +86,12 @@
                 </div>
                 <div class="col-lg-6 d-none d-lg-block">
                     <div class="d-flex justify-content-center align-item-center">
-                        <NuxtImg src="/images/shape01.png" class="img-fluid banner-coin" style="margin-top: 30px; width: 45%;" alt="Nuxt Icon" />
+                        <NuxtImg src="/images/shape01.png" class="img-fluid banner-coin" style="margin-top: 30px; width: 45%;" alt="Nuxt Icon" draggable="false" />
                     </div>
                 </div>
                 <div class="col-lg-6 d-none d-lg-block">
                     <div class="d-flex justify-content-center align-item-center">
-                        <NuxtImg src="/images/shape01.png" class="img-fluid banner-coin" style="margin-top: 30px; width: 45%;" alt="Nuxt Icon" />
+                        <NuxtImg src="/images/shape01.png" class="img-fluid banner-coin" style="margin-top: 30px; width: 45%;" alt="Nuxt Icon" draggable="false" />
                     </div>
                 </div>
 
@@ -123,7 +123,7 @@
                 </div>
                 <div class="col-lg-6 d-none d-lg-block">
                     <div class="d-flex justify-content-center align-item-center">
-                        <NuxtImg src="/images/shape01.png" class="img-fluid banner-coin" style="margin-top: 30px; width: 45%;" alt="Nuxt Icon" />
+                        <NuxtImg src="/images/shape01.png" class="img-fluid banner-coin" style="margin-top: 30px; width: 45%;" alt="Nuxt Icon"  />
                     </div>
                 </div>
  

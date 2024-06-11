@@ -3,7 +3,7 @@
         <div class="container justify-content-between">
             <div class="row overflow-hidden">
                 <div class="col-lg-6" data-aos="fade-left">   
-                    <NuxtImg src="/images/about.png" class="about-img img-fluid w-100" alt="Nuxt Icon" />
+                    <NuxtImg src="/images/about.png" class="about-img img-fluid w-100" alt="Nuxt Icon" draggable="false" />
                     <div class="floating-content__top-left">
                         <div class="floating-content__item">
                             <h1 class="text-primary"><b>10 Years</b></h1>
