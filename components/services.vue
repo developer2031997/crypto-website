@@ -10,8 +10,8 @@
             </div>
             <div class="row">
                 <div class="col-lg-4 service-card-container" v-for="service in services" :key="service.title">
-                    <div class="service-card-main">
-                        <div class="service__thumb d-flex justify-content-center">
+                    <div class="service-card-main" data-aos="zoom-in">
+                        <div class="service__thumb d-flex justify-content-center" >
                             <div class="service__thumb-inner">
                                 <NuxtImg :src="service.img" class="img-fluid" alt="Nuxt Icon" />
                             </div>

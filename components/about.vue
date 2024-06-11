@@ -1,39 +1,40 @@
 <template>
-    <div  id="about">
-    <div class="container justify-content-between">
-        <div class="row">
-            <div class="col-lg-6  position-relative">
+    <div id="about">
+        <div class="container justify-content-between">
+            <div class="row">
+                <div class="col-lg-6  position-relative" data-aos="fade-left">
 
-                <NuxtImg src="/images/about.png" class="about-img img-fluid w-100" alt="Nuxt Icon" />
-                <div class="floating-content__top-left">
-                    <div class="floating-content__item">
-                        <h1 class="text-primary"><b>10 Years</b></h1>
-                        <p class="h6">Consulting Experience</p>
+                    <NuxtImg src="/images/about.png" class="about-img img-fluid w-100" alt="Nuxt Icon" />
+                    <div class="floating-content__top-left">
+                        <div class="floating-content__item">
+                            <h1 class="text-primary"><b>10 Years</b></h1>
+                            <p class="h6">Consulting Experience</p>
+                        </div>
+                    </div>
+                    <div class="floating-content__top-right">
+                        <div class="floating-content__item">
+                            <h1 class="text-primary"><b>20K+</b></h1>
+                            <p class="h6">Happy Users</p>
+                        </div>
                     </div>
                 </div>
-                <div class="floating-content__top-right">
-                    <div class="floating-content__item">
-                        <h1 class="text-primary"><b>20K+</b></h1>
-                        <p class="h6">Happy Users</p>
+                <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-right">
+                    <div class="">
+                        <h1 class="banner-heading"> <span class="text-primary">About</span> <br> MedCrypto Solutions :
+                        </h1>
+                    </div>
+                    <div class="py-3">
+                        <p>Innovative blockchain technology for secure healthcare. Our mission is to enhance patient
+                            privacy, streamline processes, and ensure data integrity.</p>
+                    </div>
+                    <div class="">
+                        <a class="btn banner-btn-1 text-white fw-bold" href="">Explore More</a>
                     </div>
                 </div>
+                <div class="col-lg-12 py-3"></div>
             </div>
-            <div class="col-lg-6 d-flex flex-column justify-content-center">
-                <div class="">
-                    <h1 class="banner-heading"> <span class="text-primary">About</span> <br> MedCrypto Solutions :</h1>
-                </div>
-                <div class="py-3">
-                    <p>Innovative blockchain technology for secure healthcare. Our mission is to enhance patient
-                        privacy, streamline processes, and ensure data integrity.</p>
-                </div>
-                <div class="">
-                    <a class="btn banner-btn-1 text-white fw-bold" href="">Explore More</a>
-                </div>
-            </div>
-            <div class="col-lg-12 py-3"></div>
         </div>
     </div>
-</div>
 </template>
 
 <script setup>

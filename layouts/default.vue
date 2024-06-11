@@ -113,6 +113,8 @@
 </template>
 
 <script setup>
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const isSticky = ref(false);
 const showButton = ref(false);
 
@@ -144,6 +146,7 @@ const scrollFunction = () => {
 onMounted(() => {
   window.addEventListener('scroll', handleScroll);
   window.addEventListener('scroll', scrollFunction);
+  AOS.init();
 });
 
 onUnmounted(() => {

@@ -12,6 +12,7 @@
   "dependencies": {
     "@fortawesome/vue-fontawesome": "^3.0.8",
     "@nuxt/image": "^1.7.0",
+    "aos": "^2.3.4",
     "bootstrap": "^5.3.3",
     "nuxt": "^3.11.2",
     "nuxt-icon": "^0.6.10",

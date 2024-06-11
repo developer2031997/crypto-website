@@ -21,7 +21,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6  py-3 roadmap-card-container">
-                    <div class="roadmap-card-main p-4 text-start">
+                    <div class="roadmap-card-main p-4 text-start" data-aos="fade-right">
                         <div class="roadmap__thumb d-flex justify-content-between">
                             <h4 class="py-1 fw-bold">Initial Launch <br> <br> Platform Development and Testing</h4>
                             <h4 class="py-1 fw-bold"><span style="color : #73E4AC">1</span> </h4>
@@ -35,8 +35,8 @@
                 </div>
 
                 <div class="col-lg-6 py-3 roadmap-card-container">
-                    <div class="roadmap-card-main p-4 text-start">
-                        <div class="roadmap__thumb d-flex justify-content-between">
+                    <div class="roadmap-card-main p-4 text-start" data-aos="fade-left">
+                        <div class="roadmap__thumb d-flex justify-content-between" >
                             <h4 class="py-1 fw-bold">Feature Expansion <br> <br> Enhancing Functionality </h4>
                             <h4 class="py-1 fw-bold"><span style="color : #73E4AC">2</span></h4>
                         </div>
@@ -58,7 +58,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6  py-3 roadmap-card-container">
-                    <div class="roadmap-card-main p-4 text-start">
+                    <div class="roadmap-card-main p-4 text-start" data-aos="fade-right">
                         <div class="roadmap__thumb d-flex justify-content-between">
                             <h4 class="py-3 fw-bold">User Onboarding <br><br> Expanding User Base </h4>
                             <h4 class="py-3 fw-bold"><span style="color : #73E4AC">3</span></h4>
@@ -72,8 +72,8 @@
                 </div>
 
                 <div class="col-lg-6  py-3 roadmap-card-container">
-                    <div class="roadmap-card-main p-4 text-start">
-                        <div class="roadmap__thumb d-flex justify-content-between">
+                    <div class="roadmap-card-main p-4 text-start" data-aos="fade-left">
+                        <div class="roadmap__thumb d-flex justify-content-between" >
                             <h4 class="py-3 fw-bold"> Advanced Integrations <br> <br> Extending Capabilities </h4>
                             <h4 class="py-3 fw-bold"><span style="color : #73E4AC">4</span></h4>
                         </div>
@@ -96,8 +96,8 @@
                 </div>
 
                 <div class="col-lg-6  py-3 roadmap-card-container">
-                    <div class="roadmap-card-main p-4 text-start">
-                        <div class="roadmap__thumb d-flex justify-content-between">
+                    <div class="roadmap-card-main p-4 text-start" data-aos="fade-right">
+                        <div class="roadmap__thumb d-flex justify-content-between" >
                             <h4 class="py-3 fw-bold">Global Expansion <br> <br> Reaching New Markets</h4>
                             <h4 class="py-3 fw-bold"><span style="color : #73E4AC">5</span></h4>
                         </div>
@@ -109,8 +109,8 @@
                     </div>
                 </div>
                 <div class="col-lg-6  py-3 roadmap-card-container">
-                    <div class="roadmap-card-main p-4 text-start">
-                        <div class="roadmap__thumb d-flex justify-content-between">
+                    <div class="roadmap-card-main p-4 text-start" data-aos="fade-left">
+                        <div class="roadmap__thumb d-flex justify-content-between" >
                             <h4 class="py-3 fw-bold"> Future Innovations <br><br> Exploring New Horizons </h4>
                             <h4 class="py-3 fw-bold"><span style="color : #73E4AC">6</span></h4>
                         </div>

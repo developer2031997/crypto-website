@@ -37,23 +37,23 @@
                 </div>
                 <div class="col-lg-6 my-3 text-center">
                     <div class="tab-content" id="v-pills-tabContent">
-                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                        <div  class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
                             aria-labelledby="v-pills-home-tab" tabindex="0">
                             <NuxtImg src="/images/features01.png" class="about-img img-fluid w-75" alt="Nuxt Icon" />
 
                         </div>
-                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                        <div  class="tab-pane fade" id="v-pills-profile" role="tabpanel"
                             aria-labelledby="v-pills-profile-tab" tabindex="0">
                             <NuxtImg src="/images/features02.png" class="about-img img-fluid w-75" alt="Nuxt Icon" />
 
                         </div>
 
-                        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
+                        <div  class="tab-pane fade" id="v-pills-messages" role="tabpanel"
                             aria-labelledby="v-pills-messages-tab" tabindex="0">
                             <NuxtImg src="/images/features01.png" class="about-img img-fluid w-75" alt="Nuxt Icon" />
 
                         </div>
-                        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
+                        <div  class="tab-pane fade" id="v-pills-settings" role="tabpanel"
                             aria-labelledby="v-pills-settings-tab" tabindex="0">
                             <NuxtImg src="/images/features02.png" class="about-img img-fluid w-75" alt="Nuxt Icon" />
 
