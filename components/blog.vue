@@ -76,9 +76,6 @@ const medicalCryptoContent = [
         description: 'Our platform ensures that all healthcare data is encrypted and securely stored on the blockchain, providing robust protection against unauthorized access and data breaches.'
     }
 ];
-
-
-
 </script>
 
 <style scoped>
@@ -87,7 +84,7 @@ const medicalCryptoContent = [
 }
 
 .blog-card:hover {
-    border: 2px solid #73E4AC;
+    border: 4px solid #73E4AC;
 }
 
 a,
