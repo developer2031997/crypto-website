@@ -77,7 +77,7 @@ const services = ref([
 }
 
 .service-card-main:hover {
-    border: 2px solid #73E4AC;
+    border: 4px solid #73E4AC;
     transform: scale(1.05);
 }
 
