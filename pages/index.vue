@@ -5,6 +5,7 @@
 <offers/>
 <services/>
 <roadmap/>
+<blog/>
 <faq/>
 </template>
 
