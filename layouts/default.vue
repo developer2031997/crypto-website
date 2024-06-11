@@ -242,6 +242,9 @@ body{
   color : #1CD059!important;
 }
 @media screen and (max-width : 480px) {
+  body{
+    overflow: hidden;
+  }
 .navbar-collapse{
   background-color: #F4F7FB;
   padding: 0px 10px;
