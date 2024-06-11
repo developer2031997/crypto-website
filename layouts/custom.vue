@@ -60,16 +60,16 @@
                     <h5 class="fw-bold">Quick Links</h5>
                     <hr>
                     <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="#banner" class="nav-link p-0 text-body-secondary">Home</a>
+                        <li class="nav-item mb-2"><a href="/#banner" class="nav-link p-0 text-body-secondary">Home</a>
                         </li>
-                        <li class="nav-item mb-2"><a href="#about" class="nav-link p-0 text-body-secondary">About Us</a>
+                        <li class="nav-item mb-2"><a href="/#about" class="nav-link p-0 text-body-secondary">About Us</a>
                         </li>
-                        <li class="nav-item mb-2"><a href="#service"
+                        <li class="nav-item mb-2"><a href="/#service"
                                 class="nav-link p-0 text-body-secondary">Services</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Offers</a></li>
-                        <li class="nav-item mb-2"><a href="#roadmap"
+                        <li class="nav-item mb-2"><a href="/#offers" class="nav-link p-0 text-body-secondary">Offers</a></li>
+                        <li class="nav-item mb-2"><a href="/#roadmap"
                                 class="nav-link p-0 text-body-secondary">Roadmap</a></li>
-                        <li class="nav-item mb-2"><a href="#faq" class="nav-link p-0 text-body-secondary">FAQ's</a></li>
+                        <li class="nav-item mb-2"><a href="/#faq" class="nav-link p-0 text-body-secondary">FAQ's</a></li>
                     </ul>
                 </div>
 
@@ -77,11 +77,10 @@
                     <h5 class="fw-bold">Section</h5>
                     <hr>
                     <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                        <li class="nav-item mb-2"><a href="/#banner" class="nav-link p-0 text-body-secondary">Home</a></li>
+                        <li class="nav-item mb-2"><a href="/#about" class="nav-link p-0 text-body-secondary">About</a></li>
+                        <li class="nav-item mb-2"><a href="/#service" class="nav-link p-0 text-body-secondary">Service</a></li>
+                        <li class="nav-item mb-2"><a href="/#blog" class="nav-link p-0 text-body-secondary">Blog</a></li>
                     </ul>
                 </div>
 

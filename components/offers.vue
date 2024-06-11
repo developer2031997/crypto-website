@@ -1,5 +1,5 @@
 <template>
-    <div style="background: linear-gradient(152deg, #edf2f838 0%, #edf2f8 100%);">
+    <div style="background: linear-gradient(152deg, #edf2f838 0%, #edf2f8 100%);" id="offers">
         <div class="container py-5">
             <div class="row">
                 <div class="col-lg-12">

@@ -27,7 +27,10 @@
                 </div>
             </div>
             <div class="col-lg-6 py-4 text-center faq-img" data-aos="fade-right">
+       
                 <NuxtImg src="/images/faq.png" class="about-img img-fluid w-75" alt="Nuxt Icon" draggable="false"/>
+            
+        
             </div>
         </div>
     </div>
