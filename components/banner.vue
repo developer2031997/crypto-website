@@ -30,7 +30,7 @@
                                             aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
-                                        <iframe width="460" height="315"
+                                        <iframe width="100%" height="315"
                                             src="https://www.youtube.com/embed/rYQgy8QDEBI?si=77264LOoSgdjf1am"
                                             title="YouTube video player" frameborder="0"
                                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

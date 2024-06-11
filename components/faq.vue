@@ -77,7 +77,7 @@ const faqs = ref([
     background: #46cc872e;
 }
 
-@media screen and (max-width : 480px) {
+@media screen and (max-width : 840px) {
     .accordion-parent{
         order: 2;
     }

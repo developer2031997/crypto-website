@@ -15,7 +15,7 @@
             </div>
        
             <div class="row justify-content-sm-center justify-content-between ">
-                <div class="col-lg-5">
+                <div class="col-lg-5 col-md-5">
                     <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist"
                         aria-orientation="vertical">
                         <button class="nav-link btn-bg my-2  active" id="v-pills-home-tab" data-bs-toggle="pill"
@@ -32,10 +32,10 @@
                             aria-selected="false">Pharmaceutical Traceability</button>
                     </div>
                 </div>
-                <div class="col-lg-1 d-none d-sm-block">
+                <div class="col-lg-1 col-md-1 d-none d-sm-block">
                     <div class="offers-border"></div>
                 </div>
-                <div class="col-lg-6 my-3 text-center">
+                <div class="col-lg-6 col-md-6 my-3 text-center">
                     <div class="tab-content" id="v-pills-tabContent">
                         <div  class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
                             aria-labelledby="v-pills-home-tab" tabindex="0">
@@ -91,5 +91,12 @@
     width: 0px !important;
     height: 74vh;
     border-radius: 15px;
+}
+
+@media screen and (min-width: 600px) and (max-width: 840px) { 
+    .offers-border{
+        height: 36vh;
+    }
+    
 }
 </style>

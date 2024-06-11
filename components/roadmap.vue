@@ -13,9 +13,9 @@
             </div>
             <div class="row roadmap-main overflow-x-hidden">
                 <div class="col-lg-1 roadmap-border-main " style="left: 49%;">
-                    <div class="roadmap-border d-none d-sm-block"></div>
+                    <div class="roadmap-border d-none d-lg-block"></div>
                 </div>
-                <div class="col-lg-6 d-none d-sm-block">
+                <div class="col-lg-6 d-none d-lg-block">
                     <div class="d-flex justify-content-center align-item-center">
                         <NuxtImg src="/images/shape01.png" class="img-fluid banner-coin" style="margin-top: 30px; width: 45%;" alt="Nuxt Icon" />
                     </div>
@@ -47,12 +47,12 @@
                       </ul>
                     </div>
                 </div>
-                <div class="col-lg-6 d-none d-sm-block">
+                <div class="col-lg-6 d-none d-lg-block">
                     <div class="d-flex justify-content-center align-item-center">
                         <NuxtImg src="/images/shape01.png" class="img-fluid banner-coin" style="margin-top: 30px; width: 45%;" alt="Nuxt Icon" />
                     </div>
                 </div>
-                <div class="col-lg-6 d-none d-sm-block">
+                <div class="col-lg-6 d-none d-lg-block">
                     <div class="d-flex justify-content-center align-item-center">
                         <NuxtImg src="/images/shape01.png" class="img-fluid banner-coin" style="margin-top: 30px; width: 45%;" alt="Nuxt Icon" />
                     </div>
@@ -84,12 +84,12 @@
                       </ul>
                     </div>
                 </div>
-                <div class="col-lg-6 d-none d-sm-block">
+                <div class="col-lg-6 d-none d-lg-block">
                     <div class="d-flex justify-content-center align-item-center">
                         <NuxtImg src="/images/shape01.png" class="img-fluid banner-coin" style="margin-top: 30px; width: 45%;" alt="Nuxt Icon" />
                     </div>
                 </div>
-                <div class="col-lg-6 d-none d-sm-block">
+                <div class="col-lg-6 d-none d-lg-block">
                     <div class="d-flex justify-content-center align-item-center">
                         <NuxtImg src="/images/shape01.png" class="img-fluid banner-coin" style="margin-top: 30px; width: 45%;" alt="Nuxt Icon" />
                     </div>
@@ -121,7 +121,7 @@
                       </ul>
                     </div>
                 </div>
-                <div class="col-lg-6 d-none d-sm-block">
+                <div class="col-lg-6 d-none d-lg-block">
                     <div class="d-flex justify-content-center align-item-center">
                         <NuxtImg src="/images/shape01.png" class="img-fluid banner-coin" style="margin-top: 30px; width: 45%;" alt="Nuxt Icon" />
                     </div>

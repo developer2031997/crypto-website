@@ -50,7 +50,7 @@
         <h1>Crypto Website</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, inventore.</p>
       </div>
-      <div class="col-lg-2 col-12 mb-3">
+      <div class="col-lg-2 col-md-4 col-12 mb-3">
         <h5 class="fw-bold">Quick Links</h5>  <hr>
         <ul class="nav flex-column">
           <li class="nav-item mb-2"><a href="#banner" class="nav-link p-0 text-body-secondary">Home</a></li>
@@ -62,7 +62,7 @@
         </ul>
       </div>
 
-      <div class="col-lg-2 col-12 mb-3">
+      <div class="col-lg-2 col-md-4 col-12 mb-3">
         <h5 class="fw-bold">Section</h5>  <hr>
         <ul class="nav flex-column">
           <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
@@ -73,7 +73,7 @@
         </ul>
       </div>
 
-      <div class="col-lg-2 col-12 mb-3">
+      <div class="col-lg-2 col-md-4 col-12 mb-3">
         <h5 class="fw-bold">Section</h5>  <hr>
         <ul class="nav flex-column">
           <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
@@ -245,16 +245,27 @@ body{
   body{
     overflow: hidden;
   }
-.navbar-collapse{
-  background-color: #F4F7FB;
-  padding: 0px 10px;
-  border-radius: 10px;
-}
+
   #myBtn{
     bottom: 9px;
     height: 7%;
     right: 27px;
     width: 13%;;
+}
+  
+}
+@media screen and (max-width : 840px) {
+  .navbar-collapse{
+  background-color: #F4F7FB;
+  padding: 0px 10px;
+  border-radius: 10px;
+}
+  #myBtn{
+    bottom: 20px;
+    right: 12px;
+    width: 7%;
+    height: 5%;
+    border-radius: 30px;
 }
   
 }
