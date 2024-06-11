@@ -17,7 +17,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-right">
+                <div class="col-lg-6 d-flex flex-column justify-content-center overflow-x-hidden" data-aos="fade-right">
                     <div class="">
                         <h1 class="banner-heading"> <span class="text-primary">About</span> <br> MedCrypto Solutions :
                         </h1>

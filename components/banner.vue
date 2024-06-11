@@ -10,11 +10,33 @@
                         <h1 class="banner-heading">Transforming Healthcare with Blockchain Technology</h1>
                     </div>
                     <div class="py-3">
-                        <p>Secure, transparent, and efficient solutions for the future of healthcare. Join us in revolutionizing the medical industry.</p>
+                        <p>Secure, transparent, and efficient solutions for the future of healthcare. Join us in
+                            revolutionizing the medical industry.</p>
                     </div>
                     <div class="">
-                        <a class="btn banner-btn-1 text-white fw-bold" href="">Learn More</a>
-                        <a class="btn banner-btn-2 btn-outline-primary fw-bold mx-3" href="">Watch Video</a>
+                        <a class="btn banner-btn-1 text-white fw-bold" href="#about">Learn More</a>
+                        <a class="btn banner-btn-2 btn-outline-primary fw-bold mx-3" data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop">Watch Video</a>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <iframe width="460" height="315"
+                                            src="https://www.youtube.com/embed/rYQgy8QDEBI?si=77264LOoSgdjf1am"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                     <div class="pt-5">
@@ -142,21 +164,23 @@
         transform: translateX(-100px);
     }
 }
+
 @media screen and (max-width:480px) {
-    .social-media{
+    .social-media {
         justify-content: space-around;
     }
+
     @keyframes slide-left {
-    0% {
-        -webkit-transform: translateX(0);
-        transform: translateX(0);
+        0% {
+            -webkit-transform: translateX(0);
+            transform: translateX(0);
+        }
+
+        100% {
+            -webkit-transform: translateX(-100px);
+            transform: translateX(-70px);
+        }
     }
 
-    100% {
-        -webkit-transform: translateX(-100px);
-        transform: translateX(-70px);
-    }
-}
-    
 }
 </style>

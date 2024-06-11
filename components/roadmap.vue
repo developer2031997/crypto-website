@@ -1,7 +1,7 @@
 <template>
     <div style="background: linear-gradient(152deg, #edf2f838 0%, #edf2f8 100%);" id="roadmap">
         <div class="container">
-            <div class="row py-4 overflow-hidden">
+            <div class="row py-4 ">
                 <div class="col-lg-12">
                     <div class="text-center ">
                         <h1 class="fw-bold">Product <span class="text-primary"> Roadmap</span></h1>
@@ -11,7 +11,7 @@
                     <hr />
                 </div>
             </div>
-            <div class="row roadmap-main">
+            <div class="row roadmap-main overflow-x-hidden">
                 <div class="col-lg-1 roadmap-border-main " style="left: 49%;">
                     <div class="roadmap-border d-none d-sm-block"></div>
                 </div>
