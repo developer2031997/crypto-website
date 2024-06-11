@@ -1,9 +1,8 @@
 <template>
     <div id="about">
         <div class="container justify-content-between">
-            <div class="row">
-                <div class="col-lg-6" data-aos="fade-left">
-
+            <div class="row overflow-hidden">
+                <div class="col-lg-6" data-aos="fade-left">   
                     <NuxtImg src="/images/about.png" class="about-img img-fluid w-100" alt="Nuxt Icon" />
                     <div class="floating-content__top-left">
                         <div class="floating-content__item">

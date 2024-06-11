@@ -1,7 +1,7 @@
 <template>
     <div style="background: linear-gradient(152deg, #edf2f838 0%, #edf2f8 100%);" id="roadmap">
         <div class="container">
-            <div class="row py-4">
+            <div class="row py-4 overflow-hidden">
                 <div class="col-lg-12">
                     <div class="text-center ">
                         <h1 class="fw-bold">Product <span class="text-primary"> Roadmap</span></h1>
